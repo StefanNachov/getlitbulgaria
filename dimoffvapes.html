@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
@@ -94,10 +93,10 @@
                                                 <span class="dropdown-product-remove"><i class="icon-cross"></i></span>
                                             </li>
                                             <li class="total">
-                                                <span class="pull-right">Total: $20.00</span>
+                                                <span class="pull-right" id="cart-total">Total: $0.00</span>
                                                 <a href="cart.html" class="btn btn-sm btn-cart">Cart</a>
                                                 <a href="checkout-1.html" class="btn btn-sm btn-checkout">Checkout</a>
-                                            </li>
+                                            </li>                                            
                                         </ul>
                                     </div>
                                     <div class="header-right-side-menu ml-15">
@@ -195,7 +194,7 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title">3.0ML THC-P</h5>
                                 <p class="card-text">$60</p>
-                                <a href="#" class="btn btn-danger add-to-cart-btn">Купи</a>
+                                <a href="#" class="btn btn-danger add-to-cart-btn" data-id="1">Купи</a>
                             </div>
                         </div>
                     </div>
@@ -209,7 +208,7 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title">1.0ML HHC-H</h5>
                                 <p class="card-text">$50</p>
-                                <a href="#" class="btn btn-danger add-to-cart-btn">Купи</a>
+                                <a href="#" class="btn btn-danger add-to-cart-btn" data-id="2">Купи</a>
                             </div>
                         </div>
                     </div>
@@ -223,7 +222,7 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title">3.0 ML HHC-O</h5>
                                 <p class="card-text">$50</p>
-                                <a href="#" class="btn btn-danger add-to-cart-btn">Купи</a>
+                                <a href="#" class="btn btn-danger add-to-cart-btn" data-id="3">Купи</a>
                             </div>
                         </div>
                     </div>
@@ -315,6 +314,7 @@
     <script src="js/plugins.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
+    <script src="js/cart.js"></script>
 
 </body>
 
